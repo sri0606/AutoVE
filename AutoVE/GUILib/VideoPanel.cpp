@@ -4,6 +4,7 @@
  */
 #include "pch.h"
 #include "VideoPanel.h"
+#include <Actions.h>
 
 VideoPanel::VideoPanel(wxWindow* parent): wxPanel(parent, wxID_ANY)
 {

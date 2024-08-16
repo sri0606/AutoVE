@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.20)
 project(UtilsLib)
 
 set(CMAKE_CXX_STANDARD 17)
+
+set(SOURCE_FILES Actions.cpp Actions.h AutoVEAPI.cpp AutoVEAPI.h)
+
+add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
 ## Specify the paths to FFmpeg
 #set(FFMPEG_INCLUDE_DIR /path/to/ffmpeg/include)
 #set(FFMPEG_LIBRARY_DIR /path/to/ffmpeg/lib)
@@ -19,9 +23,6 @@ set(CMAKE_CXX_STANDARD 17)
 #
 ## Include directories
 #include_directories(${FFMPEG_INCLUDE_DIR})
-
-# Define your executable or library
-add_executable(${PROJECT_NAME} main.cpp)
 
 ## Link the FFmpeg libraries
 #target_link_libraries(${PROJECT_NAME}
