@@ -1,7 +1,7 @@
 project(GUILib)
 
 set(UTILS_LIBRARY UtilsLib)
-set(SOURCE_FILES MainFrame.cpp MainFrame.h pch.h MainWindow.h MainWindow.cpp VideoPanel.cpp VideoPanel.h ChatPanel.cpp ChatPanel.h)
+set(SOURCE_FILES MainFrame.cpp MainFrame.h pch.h MainWindow.h MainWindow.cpp VideoPanel.cpp VideoPanel.h ChatPanel.cpp ChatPanel.h VideoTimeline.cpp VideoTimeline.h)
 set(wxBUILD_PRECOMP OFF)
 find_package(wxWidgets COMPONENTS core base xrc media html xml REQUIRED)
 
