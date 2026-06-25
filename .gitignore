@@ -117,3 +117,4 @@ release/
 *.tmp
 *.temp
 *.DS_Store
+node_modules/
